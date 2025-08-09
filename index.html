@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Israr's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Scroll to Top -->
+  <button id="scrollTopBtn" title="Go to top">↑</button>
+
+  <!-- Header / Intro -->
+  <section class="intro">
+    <img  class="profile-img" src="assests/protfolio.jpg" alt="Profile Picture" >
+    <h1>Syed Israr Hussain</h1>
+    <h3>Front-End Developer</h3>
+    <p>I enjoy making clean and responsive websites. I know HTML, CSS, and JavaScript,<div> and I’m always ready to learn new things.</div></p>
+
+<span id="element"></span>
+  </section>
+
+<!-- skill -->
+<section class="skills">
+  <h2>Skills</h2>
+  <div class="skills-list">
+    <span class="badge"> <i class="fab fa-html5"></i> HTML</span>
+    <span class="badge"> <i class="fab fa-css3-alt"></i> CSS</span>
+    <span class="badge"> <i class="fab fa-js"></i> JavaScript</span>
+    <span class="badge"> <i class="fas fa-wind"></i> Tailwind CSS</span>
+    <span class="badge"></i> <i class="fab fa-bootstrap"></i> Bootstrap</span>
+    <span class="badge"></i> <i class="fab fa-github"></i> GitHub</span>
+  </div>
+</section>
+<!-- Projects -->
+
+ <section class="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <img src="assests/img/food.png" alt="Project 1">
+      <h3>Food Delivery UI</h3>
+      <p>Responsive landing page for a fictional food delivery service.</p>
+      <a href="#" target="_blank">Live Demo</a> | <a href="#" target="_blank">GitHub</a>
+    </div>
+    <div class="project-card">
+      <img src="assests/img/Screenshot (517).png" alt="Project 2">
+      <h3>Portfolio Website</h3>
+      <p>A clean and minimal personal portfolio site built with HTML/CSS.</p>
+      <a href="#" target="_blank">Live Demo</a> | <a href="#" target="_blank">GitHub</a>
+    </div>
+  </section> 
+
+  <!-- Contact -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p><i class="fas fa-envelope"></i> israr@example.com</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <form>
+      <input type="text" placeholder="Enter Your Name" required />
+      <input type="email" placeholder="Enter Your Email" required />
+      <textarea placeholder="Enter Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+ <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+ <script>
+    var typed = new Typed('#element', {
+      strings: ['web developer', 'Front-End Developer','Tailwind','css','Javascript '],
+      typeSpeed: 40,
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.intro, .skills, .projects, .contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-img {
+  width: 130px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+h1, h2 {
+  color: #007acc;
+}
+.skills {
+  padding: 2rem;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  color: #007acc;
+  margin-bottom: 1rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.badge {
+  background-color:#1a1a1a, #333333;
+  color: #333;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.badge i {
+  color: #007acc;
+}
+.skills .badge:hover{
+  cursor: pointer;
+  color:blue;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+}
+#element{
+  color: purple;
+  font-size: 2rem;
+}
+
+
+.project-card {
+  background: white;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact input, .contact textarea {
+  padding: 0.7rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #007acc;
+  color: white;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 35px;
+  cursor: pointer;
+
+}
+
+/* Scroll to top button */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  display: none;
+  font-size: 18px;
+  background-color: #007acc;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-card {
+    width: 90%;
+  }
+}
